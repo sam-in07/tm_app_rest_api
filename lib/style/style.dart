@@ -65,8 +65,28 @@ SvgPicture ScreenBackground(context){
   return SvgPicture.asset(
     'assets/images/screen-back.svg',
     alignment: Alignment.center,
-    width: Mediaquery.of(context).size.width,
-    height: Mediaquery.of(context).size,height,
+    width: MediaQuery.of(context).size.width,
+    height: MediaQuery.of(context).size.height,
     fit: BoxFit.cover,
   );
 }
+
+ButtonStyle AppButtonStyle(){
+  return ElevatedButton.styleFrom(
+    elevation: 1 ,
+    padding: EdgeInsets.zero,
+    backgroundColor: Colors.transparent,
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(6)
+    )
+  );
+}
+
+TextStyle ButtonTextStyle(){
+  return  TextStyle(
+    fontSize: 14,
+    fontFamily: 'poppins',
+    fontWeight: FontWeight.w400,
+  );
+}
+
