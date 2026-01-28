@@ -20,9 +20,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter TMP',
-
+      debugShowCheckedModeBanner: false,
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      initialRoute: '/',
+      // initialRoute: '/',
+      initialRoute: '/login',
       routes: {
         '/':(context)=> splashScreen(),
         '/login':(context)=> loginScreen(),

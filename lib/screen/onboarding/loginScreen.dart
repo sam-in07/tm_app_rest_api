@@ -25,8 +25,29 @@ class _loginScreenState extends State<loginScreen> {
                 Text(
                     "Get Started with",
                      style: Head1Text(colorDarkBlue),
+                ),
+                SizedBox(height: 1,),
+                Text(
+                  "Learn with Rabbil hasan",
+                  style: Head2Text(colorLightGray),
+                ),
+                SizedBox(height: 20,),
+                TextFormField(
+                  decoration: AppInputDecoration("Email Address"),
+                ),
+                SizedBox(height: 20,),
+                TextFormField(
+                  decoration: AppInputDecoration("Password"),
+                ),
+                SizedBox(height: 20,),
+                Container(
+                  child: ElevatedButton(
+                    style: AppButtonStyle(),
+                    child: SuccessButtonChild('Login'),
+                    onPressed: () {
 
-
+                    },
+                  ),
                 )
               ],
 
