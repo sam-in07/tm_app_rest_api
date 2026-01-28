@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'screen/splashScreen.dart';
-import 'screen/pinVerificationScreen.dart';
-import 'screen/registrationScreen.dart';
-import 'screen/setPasswordScreen.dart';
-import 'screen/loginScreen.dart';
-import 'screen/emailVerificationScreen.dart';
+import 'package:tm_app_rest_api/screen/emailVerificationScreen.dart';
+import 'package:tm_app_rest_api/screen/loginScreen.dart';
+import 'package:tm_app_rest_api/screen/pinVerificationScreen.dart';
+import 'package:tm_app_rest_api/screen/registrationScreen.dart';
+import 'package:tm_app_rest_api/screen/setPasswordScreen.dart';
+import 'package:tm_app_rest_api/screen/splashScreen.dart';
+
 
 
 void main() {
@@ -24,11 +25,13 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/':(context)=> splashScreen(),
-        '/':(context)=> pinVerificationScreen(),
-        '/':(context)=> registrationScreen(),
-        '/':(context)=> setPasswordScreen(),
-        '/':(context)=> loginScreen(),
-        '/':(context)=> emailVerificationScreen(),
+        '/login':(context)=> loginScreen(),
+        '/registration':(context)=> registrationScreen(),
+        '/emailVerification':(context)=> emailVerificationScreen(),
+        '/pinVerification':(context)=> pinVerificationScreen(),
+        '/setPassword':(context)=> setPasswordScreen(),
+
+
 
       },
     );
