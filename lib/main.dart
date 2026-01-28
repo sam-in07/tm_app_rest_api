@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:tm_app_rest_api/screen/emailVerificationScreen.dart';
-import 'package:tm_app_rest_api/screen/loginScreen.dart';
-import 'package:tm_app_rest_api/screen/pinVerificationScreen.dart';
-import 'package:tm_app_rest_api/screen/registrationScreen.dart';
-import 'package:tm_app_rest_api/screen/setPasswordScreen.dart';
-import 'package:tm_app_rest_api/screen/splashScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/emailVerificationScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/loginScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/pinVerificationScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/registrationScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/setPasswordScreen.dart';
+import 'package:tm_app_rest_api/screen/onboarding/splashScreen.dart';
 
 
 
