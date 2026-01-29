@@ -50,6 +50,15 @@ class _pinVerificationScreenState extends State<pinVerificationScreen> {
 
 
 
+                ),
+                Container(
+                  child: ElevatedButton(
+                    style: AppButtonStyle(),
+                    child: SuccessButtonChild('Verify'),
+                    onPressed: (){
+
+                    },
+                  ),
                 )
 
               ]
