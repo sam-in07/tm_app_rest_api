@@ -24,7 +24,7 @@ PinTheme AppOTPStyle(){
     borderRadius: BorderRadius.circular(5),
     fieldHeight: 50,
     borderWidth: 0.5,
-    fieldWidth: 60,
+    fieldWidth: 40,
     activeFillColor: Colors.white,
 
 
