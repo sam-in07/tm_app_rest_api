@@ -23,27 +23,27 @@ class _loginScreenState extends State<loginScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                    "Get Started with",
+                    "Set Password",
                      style: Head1Text(colorDarkBlue),
                 ),
                 SizedBox(height: 1,),
                 Text(
-                  "Learn with Rabbil hasan",
+                  "Minimum length password 8 character with Latter and number combination ",
                   style: Head2Text(colorLightGray),
-                ),
-                SizedBox(height: 20,),
-                TextFormField(
-                  decoration: AppInputDecoration("Email Address"),
                 ),
                 SizedBox(height: 20,),
                 TextFormField(
                   decoration: AppInputDecoration("Password"),
                 ),
                 SizedBox(height: 20,),
+                TextFormField(
+                  decoration: AppInputDecoration("Confirm Password"),
+                ),
+                SizedBox(height: 20,),
                 Container(
                   child: ElevatedButton(
                     style: AppButtonStyle(),
-                    child: SuccessButtonChild('Login'),
+                    child: SuccessButtonChild('Confirm'),
                     onPressed: () {
 
                     },
